@@ -15,7 +15,7 @@ function theBeatlesPlay(beatles, instrus) {
 function johnLennonFacts(facts) {
   var j = 0;
   
-  while(k <= facts.length) {
+  while(j <= facts.length) {
     return `${facts[j]}!!!`
   }
   
