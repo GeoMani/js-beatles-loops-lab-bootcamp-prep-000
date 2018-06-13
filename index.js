@@ -14,10 +14,11 @@ function theBeatlesPlay(beatles, instrus) {
 
 function johnLennonFacts(facts) {
   var j = 0;
-  
+  var array = [];
   while(j <= facts.length) {
-    return `${facts[j]}!!!`
     
+    array.push(`${facts[j]}!!!`)
+    j++
   }
-
+  return array;
 }
