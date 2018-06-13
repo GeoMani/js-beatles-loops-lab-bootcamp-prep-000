@@ -15,7 +15,7 @@ function theBeatlesPlay(beatles, instrus) {
 function johnLennonFacts(facts) {
   var j = 0;
   var array = [];
-  while(j <= facts.length) {
+  while(j < facts.length) {
     
     array.push(`${facts[j]}!!!`)
     j++
