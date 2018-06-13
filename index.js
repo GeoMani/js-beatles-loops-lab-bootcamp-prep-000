@@ -16,7 +16,6 @@ function johnLennonFacts(facts) {
   var j = 0;
   
   while(j <= facts.length) {
-    console.log(`${facts[j]}`)
-    j = j++;
+    console.log(`${facts[j++]}`)
   }
 }
